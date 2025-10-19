@@ -1,6 +1,6 @@
 services:
   db:
-    image: postgres:15
+    image: postgres:18
     container_name: nba_db
     environment:
       - POSTGRES_DB=nba_data
