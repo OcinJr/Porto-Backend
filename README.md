@@ -98,7 +98,7 @@ Solutions to some common errors:
 ```
 ERROR: error during connect: Head "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/_ping": open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
 ```
-Solution: Start or restart your Docker Desktop application.
+Solution: Start or restart Docker Desktop application.
 
 
 **Error 2: Maven build failure (exit code 1)**
@@ -113,7 +113,7 @@ Solution: This often means there are no Java files to compile (e.g., cloned an e
 Web server failed to start. Port 8080 was already in use.
 ```
 
-Solution: Another service on your computer is using port 8080. You can find and stop it using these commands in your terminal:
+Solution: Another service on the computer is using port 8080. You can find and stop it using these commands in terminal:
 1. Find the process ID (PID):
 ```bash
 netstat -ano | findstr :8080
